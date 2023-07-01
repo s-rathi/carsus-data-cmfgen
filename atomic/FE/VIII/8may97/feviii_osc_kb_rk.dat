@@ -28,9 +28,6 @@
 >>   10832 transitions from Keith Butler
 >>    2890 transitions from Bob Kurucz: denoted by negative position number
 
- [Reference] Oscilator strengths for Fe\m{\sc viii} are from Keit Butler (private
-              communication) and  Bob Kurucz \citep{Kur_web}.
-
   Config               Statistical   Energy   Ionization  Frequency  Wavelength
                          Weight      (cm^-1)  Energy(eV)  (Hz 10^15) (Angstroms)
 ******************************************************************************

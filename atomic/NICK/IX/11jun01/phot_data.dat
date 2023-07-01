@@ -10,7 +10,7 @@ Very crude photoionization cross-sections for NkIX
 628                                    !Number of energy levels
 1                                      !Number of photoionization routes
 9.0                                    !Screened nuclear charge
-3d_2De/3p6_3d_2De                      !Final state in ion
+3d_2De                                 !Final state in ion
 0.0                                    !Excitation energy of final state
 10.0                                   !Statistical weight of ion
 0.0D0                                  !Sigma used for Gaussian smoothing (km/s)

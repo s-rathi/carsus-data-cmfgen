@@ -20,7 +20,7 @@
 50.0                                   !Sigma used for Gaussian smoothing (km/s)
 Megabarns                              !Cross-section unit
 False                                  !Split J levels
-137132                                 !Total number of data pairs
+137139                                 !Total number of data pairs
 
 2s2_2p2_3Pe                            !Configuration name
    20                                  !Type of cross-section
@@ -101796,7 +101796,7 @@ False                                  !Split J levels
  
 2s2_2p_9s_3Po                          !Configuration name
    20                                  !Type of cross-section
- 1311                                  !Number of cross-section points
+ 1312                                  !Number of cross-section points
 1.000000E+00 1.650E+01
 1.575001E+00 6.164E+00
 2.129427E+00 3.204E+00
@@ -103030,7 +103030,8 @@ False                                  !Split J levels
 9.953378E+01 8.893E-03
 9.953379E+01 1.000E-06
 1.032448E+02 1.000E-06
-1.032449E+02 8.729E-03
+1.032448E+02 8.729E-03
+1.032448E+02 8.729E-03
 1.053305E+02 8.221E-03
 1.074583E+02 7.742E-03
 1.096290E+02 7.291E-03
@@ -103111,7 +103112,7 @@ False                                  !Split J levels
  
 2s2_2p_8d_3Do                          !Configuration name
    20                                  !Type of cross-section
- 1332                                  !Number of cross-section points
+ 1333                                  !Number of cross-section points
 9.999969E-01 1.080E+02
 1.575691E+00 4.059E+01
 2.130786E+00 2.062E+01
@@ -104366,7 +104367,8 @@ False                                  !Split J levels
 9.959481E+01 5.562E-03
 9.959482E+01 1.000E-06
 1.003170E+02 1.000E-06
-1.003171E+02 5.860E-03
+1.003170E+02 5.860E-03
+1.003170E+02 5.860E-03
 1.023435E+02 5.519E-03
 1.044109E+02 5.197E-03
 1.065202E+02 4.895E-03
@@ -104482,7 +104484,7 @@ False                                  !Split J levels
  
 2s2_2p_9s_1Po                          !Configuration name
    20                                  !Type of cross-section
- 1291                                  !Number of cross-section points
+ 1292                                  !Number of cross-section points
 1.000000E+00 6.354E+01
 1.578077E+00 2.259E+01
 2.135469E+00 1.122E+01
@@ -105693,9 +105695,10 @@ False                                  !Split J levels
 9.999337E+01 1.261E-02
 9.999653E+01 1.227E-02
 9.999968E+01 1.323E-02
-1.000058E+02 1.353E-02
+1.000059E+02 1.353E-02
 1.000059E+02 1.000E-06
-1.037918E+02 1.000E-06
+1.037919E+02 1.000E-06
+1.037919E+02 1.516E-02
 1.037919E+02 1.516E-02
 1.058887E+02 1.428E-02
 1.080277E+02 1.345E-02
@@ -105777,7 +105780,7 @@ False                                  !Split J levels
  
 2s2_2p_8d_1Fo                          !Configuration name
    20                                  !Type of cross-section
- 1207                                  !Number of cross-section points
+ 1208                                  !Number of cross-section points
 1.000000E+00 1.136E+02
 1.580532E+00 4.135E+01
 2.140289E+00 2.059E+01
@@ -106905,8 +106908,9 @@ False                                  !Split J levels
 1.003601E+02 1.435E-02
 1.003670E+02 1.480E-02
 1.003705E+02 1.445E-02
-1.003706E+02 1.000E-06
-1.011511E+02 1.000E-06
+1.003705E+02 1.000E-06
+1.011512E+02 1.000E-06
+1.011512E+02 1.569E-02
 1.011512E+02 1.569E-02
 1.031946E+02 1.478E-02
 1.052792E+02 1.392E-02
@@ -106988,7 +106992,7 @@ False                                  !Split J levels
  
 2s2_2p_8d_3Po                          !Configuration name
    20                                  !Type of cross-section
- 1337                                  !Number of cross-section points
+ 1338                                  !Number of cross-section points
 1.000000E+00 9.014E+01
 1.585177E+00 3.205E+01
 2.149418E+00 1.571E+01
@@ -108246,8 +108250,9 @@ False                                  !Split J levels
 1.012128E+02 1.299E-02
 1.012160E+02 1.155E-02
 1.012191E+02 1.126E-02
-1.012192E+02 1.000E-06
-1.050547E+02 1.000E-06
+1.012191E+02 1.000E-06
+1.050548E+02 1.000E-06
+1.050548E+02 1.117E-02
 1.050548E+02 1.117E-02
 1.071770E+02 1.052E-02
 1.093420E+02 9.907E-03
@@ -108336,7 +108341,7 @@ False                                  !Split J levels
  
 2s2_2p_8d_1Po                          !Configuration name
    20                                  !Type of cross-section
- 1380                                  !Number of cross-section points
+ 1381                                  !Number of cross-section points
 9.999987E-01 6.592E+01
 1.586170E+00 2.318E+01
 2.151368E+00 1.128E+01
@@ -109637,8 +109642,9 @@ False                                  !Split J levels
 1.013892E+02 8.274E-03
 1.013923E+02 7.477E-03
 1.013955E+02 7.281E-03
-1.013956E+02 1.000E-06
-1.052314E+02 1.000E-06
+1.013955E+02 1.000E-06
+1.052315E+02 1.000E-06
+1.052315E+02 9.868E-03
 1.052315E+02 9.868E-03
 1.073573E+02 9.293E-03
 1.095260E+02 8.752E-03
@@ -109748,7 +109754,7 @@ False                                  !Split J levels
  
 2s2_2p_9p_1Pe                          !Configuration name
    20                                  !Type of cross-section
- 1327                                  !Number of cross-section points
+ 1328                                  !Number of cross-section points
 9.999966E-01 4.329E+01
 1.625545E+00 1.273E+01
 2.228710E+00 6.084E+00
@@ -110996,8 +111002,9 @@ False                                  !Split J levels
 1.082106E+02 2.169E-02
 1.082135E+02 2.034E-02
 1.082191E+02 1.907E-02
-1.082192E+02 1.000E-06
-1.188645E+02 1.671E-02
+1.082191E+02 1.000E-06
+1.188646E+02 1.000E-06
+1.188646E+02 1.671E-02
 1.188646E+02 1.671E-02
 1.212658E+02 1.574E-02
 1.237155E+02 1.482E-02

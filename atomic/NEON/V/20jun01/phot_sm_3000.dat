@@ -57632,7 +57632,7 @@ False                                   !Split J levels
 2s2_2p_10g_3Ho                          !Configuration name [*]
 2                                       !Type of cross-section
 3                                       !Number of cross-section points
-     10.00
+      0.00
       4.00
       4.00
 2s2_2p_10g_1Ho                          !Configuration name [*]

@@ -11,12 +11,8 @@
          -----------------------------------
 
            1 - Seaton formula fit [sigma_o,alpha,beta]                  
-          20 - Opacity Project: smoothed [number of data pairs]         
 
- [Reference] NIST Atomic Data Base.
- [Reference] Al\,{\sc iv} photoionization cross-sections are from the opacity project
- [Reference] \citep{Sea87_op}, and were retrieved from Topbase \citep{Topbase93}.
- [Reference: MP Scott (unpublished)
+          20 - Opacity Project: smoothed [number of data pairs]         
  
 ******************************************************************************
  

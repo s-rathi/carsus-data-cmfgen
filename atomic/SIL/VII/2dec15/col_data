@@ -1,11 +1,8 @@
 ***************************************************************************************************
 
-       Colisional data for Si VII (values are those of Ne III)
-
- [Reference] Si\,{\sc vii} collision rates \cite{MB00_NeIII_col}
- [Reference] McLaughlin, B. M., Bell, K. L, 2000, J. Phs. B., 33, 597
- [Reference]  Values are for NeIII
-     Bug fixed: 21-Oct-2008 (Typos with level names).
+       Colisional data for Si VI (values are those of Ne III)
+       Reference: McLaughlin, B. M., Bell, K. L, 2000, J. Phs. B., 33, 597
+       Bug fixed: 21-Oct-2008 (Typos with level names).
 
 ***************************************************************************************************
 
