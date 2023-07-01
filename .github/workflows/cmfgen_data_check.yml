@@ -47,19 +47,19 @@ jobs:
         id: compare
         run: |
           git add .
-          git diff --quiet --exit-code --cached
+       #   git diff --quiet --exit-code --cached
           FILE_CHANGE=$?
           echo "change=$FILE_CHANGE" >> "$GITHUB_OUTPUT"
 
       - name: Commit files to git
         id: commit_changes
-        if: ${{ steps.compare.outputs.change == 1 }}
+      #  if: ${{ steps.compare.outputs.change == 1 }}
         run: |
           git commit -m "New dataset added"
 
       - name: Push changes
         id: Push_changes
-        if: ${{ steps.compare.outputs.change == 1 }}
+      #  if: ${{ steps.compare.outputs.change == 1 }}
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
