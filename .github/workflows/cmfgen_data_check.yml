@@ -48,8 +48,8 @@ jobs:
         run: |
           git add .
        #   git diff --quiet --exit-code --cached
-          FILE_CHANGE=$?
-          echo "change=$FILE_CHANGE" >> "$GITHUB_OUTPUT"
+        #  FILE_CHANGE=$?
+        #  echo "change=$FILE_CHANGE" >> "$GITHUB_OUTPUT"
 
       - name: Commit files to git
         id: commit_changes
