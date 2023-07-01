@@ -1,11 +1,6 @@
 ************************************************************************************************************************
  
                  Energy Levels and statistical weights for NaVII
-
- [Reference] Na\,{\sc vii} oscillator strengths are from the opacity project
- [Reference] \citep{Sea87_op}, and were retrieved from Topbase \citep{Topbase93}.
- [Reference] JA Fernley, A Hibbert, AE Kingston & MJ Seaton (unpublished). 
- [Reference] Supplemented by hydrogenic values for high (l,n) states.
  
                              g        E(cm^-1)    10^15 Hz     eV       Lam(A)       ID      ARAD       GAM2        GAM4
 ************************************************************************************************************************

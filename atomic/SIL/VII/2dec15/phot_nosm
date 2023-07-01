@@ -2,11 +2,6 @@
 **********************************************************************
 
  Photoionization cross-sections for SiVII
- Unsmoothed.
-
- [Reference] [Reference] Si\,{\sc vii} photoionization cross-sections are from the opacity project
- [Reference] \citep{Sea87_op}, and were retrieved from Topbase \citep{Topbase93}.
- [Reference] K Butler & CJ Zeippen (unpublished). Supplemented by hydrogenic values for high (l,n) states.
 
 **********************************************************************
 **********************************************************************
@@ -17,7 +12,6 @@
 7.0                                    !Screened nuclear charge
 2s2_2p3_4So                            !Final state in ion
 0.0                                    !Excitation energy of final state
-0.0                                    !Sigma used for Gaussian smoothing (km/s)
 4.0                                    !Statistical weight of ion
 Megabarns                              !Cross-section unit
 False                                  !Split J levels

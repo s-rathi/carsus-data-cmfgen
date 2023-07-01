@@ -10,7 +10,7 @@ Very crude photoionization cross-sections for FeI
 567                                    !Number of energy levels
 1                                      !Number of photoionization routes
 1.0                                    !Screened nuclear charge
-3d6(5D)4sa6De/3d6(5D)4s_a6De           !Final state in ion
+3d6(5D)4sa6De                          !Final state in ion
 0.0                                    !Excitation energy of final state
 30.0                                   !Statistical weight of ion
 3000.0                                 !Sigma used for Gaussian smoothing (km/s)

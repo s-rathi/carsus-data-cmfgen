@@ -1,7 +1,7 @@
 *******************************************************************************
 *******************************************************************************
 
-  Photoionization cross sections for NV. Levels up to and including level
+  Photoionization cross sections for CIV. Levels up to and including level
   12 are split into separate l states. All others are combined into a single
   n state.
 
@@ -10,7 +10,7 @@
                   2 - Hydrogenic: separate l states (up to z) [index, n]
                   1 - Parameterized power law (Hildago etc) [alpha(nu_o), beta]
 
- [Reference] N\,{\sc v} photoionization data is from \citep{PSS88_LI_seq}
+ [Reference] N\,{\sc iv} photoionization data is from \citep{PSS88_LI_seq}
  [Reference] Hydrogenic rates used for high l and n states.
 
 *******************************************************************************

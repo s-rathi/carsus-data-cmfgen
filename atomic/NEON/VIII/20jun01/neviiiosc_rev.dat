@@ -4,10 +4,6 @@
                  Opacity project
                  Energy levels from NIST where available
                  LS splitting
-
- [Reference] Ne VIII oscillator strengths are from \cite{PSS88_LI_seq}
- [Reference]     and were obtained from topbase. Complemented by hydrogenic cross-sections
- [Reference]     for high $l$ and $n$ states.
  
                     g        E(cm^-1)    10^15 Hz     eV       Lam(A)       ID      ARAD       GAM2        GAM4
 ************************************************************************************************************************

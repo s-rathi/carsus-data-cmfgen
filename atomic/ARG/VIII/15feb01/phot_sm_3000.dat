@@ -11,16 +11,13 @@
 
           20 - Opacity Project: smoothed [number of data pairs]         
 
- [Reference] Ar\,{\sc viii} : Photoionization cross-sections are from the opacity project.
- [Reference] K T Taylor (unpublished)
-
 ******************************************************************************
 
 14-Feb-2001                             !Date
 57                                      !Number of energy levels
 1                                       !Number of photoionization routes
 8.0                                     !Screened nuclear charge
-2s2_2p6_1Se / 2p6_1Se                   !Final state in ion
+2p6_1Se                                 !Final state in ion
 0.0                                     !Excitation energy of final state
 1.0                                     !Statistical weight of ion
 3000.0                                  !Sigma used for Gaussian smoothing (km/s)

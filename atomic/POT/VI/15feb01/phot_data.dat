@@ -10,7 +10,7 @@ Very crude photoionization cross-sections for KVI
 501                                    !Number of energy levels
 1                                      !Number of photoionization routes
 6.0                                    !Screened nuclear charge
-3s2_3p_2Po/3p_2Po                      !Final state in ion
+3p_2Po                                 !Final state in ion
 0.0                                    !Excitation energy of final state
 6.0                                    !Statistical weight of ion
 0.0                                    !Sigma used for Gaussian smoothing (km/s)

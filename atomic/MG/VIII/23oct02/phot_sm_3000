@@ -23337,7 +23337,7 @@ False                                   !Split J levels
 2s2_10f_2Fo                             !Configuration name [*]
 2                                       !Type of cross-section
 3                                       !Number of cross-section points
-     10.00
+     1-.00
       3.00
       3.00
 2s2_10g_2Ge                             !Configuration name [*]
