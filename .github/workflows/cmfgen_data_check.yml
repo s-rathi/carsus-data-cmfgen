@@ -42,28 +42,33 @@ jobs:
         id: compare
         run: |
           git add .
+          #git commit -m "New dataset added"
           echo "1"
+
+      - name: Commit files to git
+        id: commit_changes
+        #if: ${{ steps.compare.outputs.change == 1 }}
+        run: |
+          git commit -m "New dataset added"
+
+      - name: Push changes
+        id: Push_changes
+        #if: ${{ steps.compare.outputs.change == 1 }}
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
+          
+          
+      - name: Diff change
+        id: diff
+        run: |
           git diff ./atomic ./atomic_new
           FILE_CHANGE=$?
           echo "FILE_CHANGE= $FILE_CHANGE"
           echo "change=$FILE_CHANGE" >> "$GITHUB_OUTPUT"
           echo "4"
           exit 0
-
-      - name: Commit files to git
-        id: commit_changes
-        if: ${{ steps.compare.outputs.change == 1 }}
-        run: |
-          git commit -m "New dataset added"
-
-      - name: Push changes
-        id: Push_changes
-        if: ${{ steps.compare.outputs.change == 1 }}
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.ref }}
-          
      # - name: Report status 
       #  uses: act10ns/slack@v2.0.0
        # with:
