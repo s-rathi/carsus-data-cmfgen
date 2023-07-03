@@ -45,7 +45,7 @@ jobs:
           echo "1"
           git status
           echo "1.5"
-          git diff --exit-code --cached
+          git diff --quite --exit-code --cached
           FILE_CHANGE=$?
           echo "FILE_CHANGE = $FILE_CHANGE"
           echo "change=$FILE_CHANGE" >> "$GITHUB_OUTPUT"
