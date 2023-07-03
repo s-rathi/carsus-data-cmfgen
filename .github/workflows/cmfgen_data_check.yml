@@ -6,7 +6,8 @@ on:
   workflow_dispatch:
   
 env:
-  SOURCE_URL: https://kookaburra.phyast.pitt.edu/hillier/cmfgen_files/atomic_data_15nov16.tar.gz
+  #SOURCE_URL: https://kookaburra.phyast.pitt.edu/hillier/cmfgen_files/atomic_data_15nov16.tar.gz
+  SOURCE_URL: https://sites.pitt.edu/~hillier/cmfgen_files/atomic_data_21jun23.tar.gz
 
 jobs:
   build:
