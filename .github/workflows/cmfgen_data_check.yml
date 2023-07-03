@@ -14,7 +14,7 @@ jobs:
     env:
       SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK }}
 
-   # steps:
+    steps:
     #  - uses: act10ns/slack@v2.0.0
     #    with:
     #      status: starting
