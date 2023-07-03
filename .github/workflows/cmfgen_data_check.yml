@@ -42,12 +42,14 @@ jobs:
         id: compare
         run: |
           git add .
-          echo "1"
-          git diff --exit-code 
+          ech0 "1"
+          git status
+          git diff --exit-code --cached
           FILE_CHANGE=$?
           echo "FILE_CHANGE = $FILE_CHANGE"
           echo "change=$FILE_CHANGE" >> "$GITHUB_OUTPUT"
           echo "2"
+          exit 0
 
       - name: Commit files to git
         id: commit_changes
