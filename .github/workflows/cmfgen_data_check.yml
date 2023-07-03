@@ -6,8 +6,8 @@ on:
   workflow_dispatch:
   
 env:
-  #SOURCE_URL: https://sites.pitt.edu/~hillier/cmfgen_files/atomic_data_21jun23.tar.gz #updated url
-  SOURCE_URL: https://kookaburra.phyast.pitt.edu/hillier/cmfgen_files/atomic_data_15nov16.tar.gz
+  SOURCE_URL: https://sites.pitt.edu/~hillier/cmfgen_files/atomic_data_21jun23.tar.gz #updated url
+  #SOURCE_URL: https://kookaburra.phyast.pitt.edu/hillier/cmfgen_files/atomic_data_15nov16.tar.gz
 
 jobs:
   build:
@@ -35,7 +35,6 @@ jobs:
       - name: Download data
         id: download_data
         run: |
-          rm -rf ./atomic 
           wget -q -U "Mozilla/4.0" $SOURCE_URL -O /tmp/atomic.tar.gz
           tar -zxf /tmp/atomic.tar.gz 
           
@@ -43,18 +42,22 @@ jobs:
         id: compare
         run: |
           git add .
-          #git commit -m "New dataset added"
           echo "1"
+          git diff --exit-code --cached
+          FILE_CHANGE=$?
+          echo "FILE_CHANGE = $FILE_CHANGE"
+          echo "change=$FILE_CHANGE" >> "$GITHUB_OUTPUT"
+          echo "2"
 
       - name: Commit files to git
         id: commit_changes
-        #if: ${{ steps.compare.outputs.change == 1 }}
+        if: ${{ steps.compare.outputs.change == 1 }}
         run: |
           git commit -m "New dataset added"
 
       - name: Push changes
         id: Push_changes
-        #if: ${{ steps.compare.outputs.change == 1 }}
+        if: ${{ steps.compare.outputs.change == 1 }}
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
