@@ -35,6 +35,7 @@ jobs:
       - name: Download data
         id: download_data
         run: |
+          rm -rf ./atomic 
           wget -q -U "Mozilla/4.0" $SOURCE_URL -O /tmp/atomic.tar.gz
           tar -zxf /tmp/atomic.tar.gz 
           
