@@ -10,7 +10,7 @@ Very crude photoionization cross-sections for NII
 358                                    !Number of energy levels
 2                                      !Number of photoionization routes
 2.0                                    !Screened nuclear charge
-2s_2p2_4Pe/2s2p2p4Pe                   !Final state in ion
+2s_2p2_4Pe                             !Final state in ion
 57277.40                               !Excitation energy of final state
 12.0                                   !Statistical weight of ion
 3000.0                                 !Sigma used for Gaussian smoothing (km/s)

@@ -11,11 +11,8 @@
          -----------------------------------
 
            1 - Seaton formula fit [sigma_o,alpha,beta]                  
-          20 - Opacity Project: smoothed [number of data pairs]         
 
- [Reference] Ne VII photoionization data are from \cite{TSB90_Be_se} and were retrieved
- [Reference]            from Topbase \citep{Topbase9}. Complemented by hydrogenic cross-sections
- [Reference]            for high $l$ and $n$ states.
+          20 - Opacity Project: smoothed [number of data pairs]         
 
 ******************************************************************************
 

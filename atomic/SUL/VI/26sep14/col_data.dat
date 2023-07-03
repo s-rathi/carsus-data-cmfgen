@@ -3,24 +3,19 @@
 
        Colisional data for S VI
 
- [Reference] Collision strengths S VI: Dufton and Kingston \cite{1987JPhB...20.3899D}
+       [Reference] Dufton and Kingston \cite{1987JPhB...20.3899D}
 
 ******************************************************************************
 
-10                                      !Number of transitions
+4                                       !Number of transitions
 6                                       !Number of T values OMEGA tabulated at
 1.0                                     !Scaling factor for OMEGA (non-FILE values).
 0.1                                     !Value for OMEGA if f=0
 
    Transition\T            1.0       2.0        4.0     8.0   16.0    32.0
 
-3s_2Se-3p_2Po             13.4      13.3       13.5     13.8   14.1   14.4
-3s_2Se-3d_2De             1.90      1.85       1.84     1.83   1.81   1.78
+3s_2Se-3p_2Po             13.4      13.3       13.5    13.8   14.1   14.4
+3s_2Se-3p_2De             1.90      1.85       1.84     1.83   1.81   1.78
 3s_2Se-4s_2Se             0.54      0.52       0.50     0.48   0.46   0.45
-3s_2Se-4p_2Po             0.15      0.15       0.15     0.15   0.15   0.15
-3p_2Po-3d_2De             22.8      23.2       23.9     25.0   26.2   27.7
-3p_2Po-4s_2Se             1.36      1.32       1.16     0.95   0.81   0.79
-3p_2Po-4p_2Po             1.90      1.91       1.92     1.93   1.95   1.99
-3d_2De-4s_2Se             2.01      2.00       1.85     1.60   1.32   1.10
-3d_2De-4p_2Po             2.51      2.58       2.69     2.88   3.16   3.46
-4s_2Se-4p_2Po             33.0      33.1       33.3     34.1   36.1   40.4
+3s_2Se-4d_2Po             0.15      0.15       0.15     0.15   0.15   0.15
+

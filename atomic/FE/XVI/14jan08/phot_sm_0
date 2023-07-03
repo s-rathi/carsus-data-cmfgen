@@ -10,14 +10,11 @@
          -----------------------------------
 
           20 - Opacity Project: smoothed [number of data pairs]         
-
- [Reference] Photoionization crossections for Fe XVI are from the OP.
- [Referemce] KT Taylor (unpublished).
  
 ******************************************************************************
  
 13-Jan-2008                             !Date
-57                                      !Number of energy levels
+31                                      !Number of energy levels
 1                                       !Number of photoionization routes
 15.0                                    !Screened nuclear charge
 2s2_2p6_1Se                             !Final state in ion

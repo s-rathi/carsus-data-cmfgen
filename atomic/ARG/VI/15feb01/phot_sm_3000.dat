@@ -11,11 +11,8 @@
          -----------------------------------
 
            1 - Seaton formula fit [sigma_o,alpha,beta]                  
-          20 - Opacity Project: smoothed [number of data pairs]         
 
- [Reference] Ar\,{\sc vi} photoionization cross-sections were computed as part of the opacity project
- [Reference] \citep{Sea87_OP} and were obtained from \citep{Topbase93}.
- [Reference]  C Mendoza, W Eissner, M Le Dourneuf, CJ Zeippen (unpublished).
+          20 - Opacity Project: smoothed [number of data pairs]         
 
 ******************************************************************************
 

@@ -11,9 +11,10 @@ For ionization of low lying levels we expect OMEGA(i,i) to be propotional to T.
 T is in units of 10^4 K.
 
   Reference: Zhang, H.L., Graziani, M., Pradhan, A. K., 1994,, A&A, 283, 319
+
  [Reference] O\,{\sc iv} collision rates are from \cite{ZCO94_B_like}.
 
- Altered: 6-Jun-2013. Problem with 2 2p3_2Po transitions fixed (double --).
+ Altered: 6-Jun-2013. PProblen with 2 2p3_2Po transitions fixed (double --).
 
 **************************************************************************************************************************
 **************************************************************************************************************************
