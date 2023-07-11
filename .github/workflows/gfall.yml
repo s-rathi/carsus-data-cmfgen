@@ -1,4 +1,4 @@
-name: Check CMFGEN data update workflow
+name: Check gfall data update workflow
 
 on:
   schedule:
