@@ -30,10 +30,10 @@ jobs:
         id: download_data
         run: |
           mkdir ~/linelists
-          wget -q -U "Mozilla/4.0" $SOURCE_URL -O /linelists/gfall.dat
-          wget -q -U "Mozilla/4.0" $CHANGES_URL -O /linelists/changesall.dat
-          wget -q -U "Mozilla/4.0" $CREATION_URL -O /linelists/creationdates.dat
-          wget -q -U "Mozilla/4.0" $README_URL -O /linelists/readme.dat
+          wget -q -U "Mozilla/4.0" $SOURCE_URL -O ./linelists/gfall.dat
+          wget -q -U "Mozilla/4.0" $CHANGES_URL -O ./linelists/changesall.dat
+          wget -q -U "Mozilla/4.0" $CREATION_URL -O ./linelists/creationdates.dat
+          wget -q -U "Mozilla/4.0" $README_URL -O ./linelists/readme.dat
           
       - name: Compare changes
         id: compare
