@@ -29,7 +29,7 @@ jobs:
       - name: Download data
         id: download_data
         run: |
-          mkdir -p linelists
+          #mkdir -p linelists
           wget -q -U "Mozilla/4.0" $SOURCE_URL -O ./linelists/gfall.dat
           wget -q -U "Mozilla/4.0" $CHANGES_URL -O ./linelists/changesall.dat
           wget -q -U "Mozilla/4.0" $CREATION_URL -O ./linelists/creationdates.dat
