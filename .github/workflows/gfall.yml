@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   
 env:
-  SOURCE_URL: http://kurucz.harvard.edu/linelists/gfall/gfall.dat.           #URL of the gfall line lists 
+  SOURCE_URL: http://kurucz.harvard.edu/linelists/gfall/gfall.dat           #URL of the gfall line lists 
   CHANGES_URL: http://kurucz.harvard.edu/linelists/gfall/changesall.tab      #URL of the changes mentioned by Kuruz
   CREATION_URL: http://kurucz.harvard.edu/linelists/gfall/creationdates.dat  #creation date of each data
   README_URL: http://kurucz.harvard.edu/linelists/gfall/00gffix.readme       #readme file at Kuruz website
@@ -30,10 +30,11 @@ jobs:
         id: download_data
         run: |
           mkdir -p linelists/gfall
-          wget -qO linelists/gfall/gfall.dat "Mozilla/4.0" $SOURCE_URL  
-          wget -qO linelists/gfall/changesall.dat "Mozilla/4.0" $CHANGES_URL 
-          wget -qO linelists/gfall/creationdates.dat "Mozilla/4.0" $CREATION_URL
-          wget -qO linelists/gfall/readme.dat "Mozilla/4.0" $README_URL
+          wget -qO linelists/gfall/gfall.dat http://kurucz.harvard.edu/linelists/gfall/gfall.dat 
+          echo "1"
+          wget -qO linelists/gfall/changesall.dat $CHANGES_URL 
+          wget -qO linelists/gfall/creationdates.dat $CREATION_URL
+          wget -qO linelists/gfall/readme.dat $README_URL
           
       - name: Compare changes
         id: compare
