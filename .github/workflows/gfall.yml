@@ -29,11 +29,11 @@ jobs:
       - name: Download data
         id: download_data
         run: |
-          #mkdir -p linelists
-          wget -q -U "Mozilla/4.0" $SOURCE_URL -O ./linelists/gfall.dat
-          wget -q -U "Mozilla/4.0" $CHANGES_URL -O ./linelists/changesall.dat
-          wget -q -U "Mozilla/4.0" $CREATION_URL -O ./linelists/creationdates.dat
-          wget -q -U "Mozilla/4.0" $README_URL -O ./linelists/readme.dat
+          mkdir -p linelists/gfall
+          wget -q -O "Mozilla/4.0" $SOURCE_URL -O /linelists/gfall/gfall.dat
+          wget -q -O "Mozilla/4.0" $CHANGES_URL -O /linelists/gfall/changesall.dat
+          wget -q -O "Mozilla/4.0" $CREATION_URL -O /linelists/gfall/creationdates.dat
+          wget -q -O "Mozilla/4.0" $README_URL -O /linelists/gfall/readme.dat
           
       - name: Compare changes
         id: compare
