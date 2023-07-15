@@ -33,6 +33,7 @@ jobs:
           wget -qO linelists/gfall/gfall.dat http://kurucz.harvard.edu/linelists/gfall/gfall.dat 
           echo "1"
           wget -qO linelists/gfall/changesall.dat $CHANGES_URL 
+          echo "2"
           wget -qO linelists/gfall/creationdates.dat $CREATION_URL
           wget -qO linelists/gfall/readme.dat $README_URL
           
@@ -40,7 +41,9 @@ jobs:
         id: compare
         run: |
           git add .
+          echo "3"
           git diff --quiet --exit-code --cached
+          echo "4"
           FILE_CHANGE=$?
           echo "change=$FILE_CHANGE" >> "$GITHUB_OUTPUT"
 
