@@ -1,8 +1,8 @@
 name: Check CMFGEN data update workflow
 
 on:
-  schedule:
-    - cron: '0 0 * * 0'  #runs on every Sunday midnight
+  #schedule:
+   # - cron: '0 0 * * 0'  #runs on every Sunday midnight
   workflow_dispatch:
   
 env:
